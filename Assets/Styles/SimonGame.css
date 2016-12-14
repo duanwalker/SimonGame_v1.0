@@ -1,0 +1,347 @@
+@import url(https://fonts.googleapis.com/css?family=VT323|Pacifico|Nova+Mono);
+
+html,
+body {
+  
+}
+
+.container {
+   display: block;
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 25%;
+  
+}
+
+.simonBody {
+  background: #404040;
+  position: relative;
+  height: 480px;
+  width: 480px;
+  border-radius: 80%;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  display: flex; 
+  display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+  
+  
+}
+
+.blueBtn {
+  position: absolute;
+  background: #0000ff;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px 10px 0px 10px;
+  border-top-left-radius: 100%;
+  box-shadow: 1px 3px 0px 0px black;
+  -moz-box-shadow: 1px 3px 0px 0px black;
+  -o-box-shadow: 1px 3px 0px 0px black;
+  -webkit-box-shadow: 1px 3px 0px 0px black;
+  background: -moz-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0px, #0000ff 0px), -moz-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #0000ff 85%), -moz-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0px, #0000ff 0px), -moz-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0px, #0000ff 0px);
+  background: -o-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0px, #0000ff 0px), -o-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #0000ff 85%), -o-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0px, #0000ff 0px), -o-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0px, #0000ff 0px);
+  background: -webkit-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0px, #0000ff 0px), -webkit-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #0000ff 85%), -webkit-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0px, #0000ff 0px), -webkit-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0px, #0000ff 0px);
+  background-position: bottom left, bottom right, top right, top left;
+  -moz-background-size: 50% 50%;
+  -webkit-background-size: 50% 50%;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  top: 25px;
+  left: 25px;
+}
+ #blue:active {
+    background: #339cff;
+   box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  -o-box-shadow: 0px 0px 0px 0px black;
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+   height: 198px;
+  width: 198px;
+  }
+.blueLight {
+    background: #339cff;
+   box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  -o-box-shadow: 0px 0px 0px 0px black;
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+   height: 198px;
+  width: 198px;
+  }
+.redBtn {
+  position: absolute;
+  background: #cc3300;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px 0px 10px 10px;
+  border-top-right-radius: 100%;
+  -webkit-border-top-right-radius: 100%;
+  /*chrome 4.0 */
+  -moz-border-top-right-radius: 100%;
+  /*firefox 3.0 */
+  box-shadow: 1px 3px 0px 0px black;
+  -moz-box-shadow: 1px 3px 0px 0px black;
+  -o-box-shadow: 1px 3px 0px 0px black;
+  -webkit-box-shadow: 1px 3px 0px 0px black;
+  background: -moz-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0%, #cc3300 85%), -moz-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #cc3300 0%), -moz-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0px, #cc3300 0px), -moz-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0px, #cc3300 0px);
+  background: -o-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0%, #cc3300 85%), -o-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #cc3300 0%), -o-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0px, #cc3300 0px), -o-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0px, #cc3300 0px);
+  background: -webkit-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0%, #cc3300 85%), -webkit-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #cc3300 0%), -webkit-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0px, #cc3300 0px), -webkit-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0px, #cc3300 0px);
+  background-position: bottom left, bottom right, top right, top left;
+  -moz-background-size: 50% 50%;
+  -webkit-background-size: 50% 50%;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  top: 25px;
+  left: 258px;
+}
+#red:active {
+    background: #ff6633;
+   box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  -o-box-shadow: 0px 0px 0px 0px black;
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+   height: 198px;
+  width: 198px;
+  }
+.redLight {
+    background: #ff6633;
+   box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  -o-box-shadow: 0px 0px 0px 0px black;
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+   height: 198px;
+  width: 198px;
+  }
+.greenBtn {
+  position: absolute;
+  background: #009933;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 0px 10px 0px 10px;
+  border-bottom-right-radius: 100%;
+  box-shadow: 1px 3px 0px 0px black;
+  -moz-box-shadow: 1px 3px 0px 0px black;
+  -o-box-shadow: 1px 3px 0px 0px black;
+  -webkit-box-shadow: 1px 3px 0px 0px black;
+  background: -moz-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0px, #009933 0%), -moz-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #009933 0%), -moz-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0px, #009933 0px), -moz-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0%, #009933 75%);
+  background: -o-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0px, #009933 0%), -o-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #009933 0%), -o-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0px, #009933 0px), -o-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0%, #009933 85%);
+  background: -webkit-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0%, #009933 0%), -webkit-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #009933 0%), -webkit-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0px, #009933 0px), -webkit-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0%, #009933 85%);
+  background-position: bottom left, bottom right, top right, top left;
+  -moz-background-size: 50% 50%;
+  -webkit-background-size: 50% 50%;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  top: 248px;
+  left: 258px;
+}
+#green:active {
+    background: #00ff55;
+   box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  -o-box-shadow: 0px 0px 0px 0px black;
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+   height: 198px;
+  width: 198px;
+  }
+.greenLight {
+    background: #00ff55;
+   box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  -o-box-shadow: 0px 0px 0px 0px black;
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+   height: 198px;
+  width: 198px;
+  }
+.yellowBtn {
+  position: absolute;
+  background: #ffff00;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px 0px 10px 0px;
+  border-bottom-left-radius: 100%;
+  box-shadow: 1px 3px 0px 0px black;
+  -moz-box-shadow: 1px 3px 0px 0px black;
+  -o-box-shadow: 1px 3px 0px 0px black;
+  -webkit-box-shadow: 1px 3px 0px 0px black;
+  background: -moz-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0px, #ffff00 0%), -moz-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #ffff00 0%), -moz-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0%, #ffff00 75%), -moz-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0px, #ffff00 0px);
+  background: -o-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0px, #ffff00 0%), -o-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #ffff00 0%), -o-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0%, #ffff00 75%), -o-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0px, #ffff00 0px);
+  background: -webkit-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 0%, #ffff00 0%), -webkit-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 0%, #ffff00 0%), -webkit-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 0%, #ffff00 75%), -webkit-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 0px, #ffff00 0px);
+  background-position: bottom left, bottom right, top right, top left;
+  -moz-background-size: 50% 50%;
+  -webkit-background-size: 50% 50%;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  top: 250px;
+  left: 28px;
+}
+#yellow:active {
+    background: #ffffb3;
+   box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  -o-box-shadow: 0px 0px 0px 0px black;
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+   height: 198px;
+  width: 198px;
+  }
+.yellowLight {
+    background: #ffffb3;
+   box-shadow: 0px 0px 0px 0px black;
+  -moz-box-shadow: 0px 0px 0px 0px black;
+  -o-box-shadow: 0px 0px 0px 0px black;
+  -webkit-box-shadow: 0px 0px 0px 0px black;
+   height: 198px;
+  width: 198px;
+  }
+.controls {
+  position: relative;
+  background: white;
+  height: 248px;
+  width: 248px;
+  border-radius: 80%;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -o-border-radius: 80%;
+  margin: auto;
+  border: 18px solid #404040;
+}
+
+.title {
+  position: relative;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 40px;
+  top: 20px;
+  padding-bottom: 5px;
+}
+
+.controlsRow {
+  position: relative;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  padding:5px;
+  
+}
+
+.level {
+  background: #661a00;
+  position: relative;
+  display: block;
+  border: 2px solid black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 60px;
+  height: 45px;
+  color: #cc3300;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'VT323', monospace;
+  line-height: 40px;
+  box-shadow: inset 3px 4px 3px 0px #330000;
+  list-style-type: decimal-leading-zero;
+}
+
+.level p {
+	content:  counter(p, decimal-leading-zero) ;
+	
+}
+#startButton {
+  position: relative;
+  display: block;
+  background: #b32d00;
+  width: 20px;
+  height: 20px;
+  border-radius: 80%;
+  border: 2px solid #808080;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -o-border-radius: 80%;
+  box-shadow: 0px 5px 3px 0px #330000;
+  margin-bottom:5px;
+}
+
+#strictButton {
+  position: relative;
+  display: block;
+  background: yellow;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #808080;
+  border-radius: 80%;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -o-border-radius: 80%;
+  box-shadow: 0px 5px 3px 0px #330000;
+  margin-bottom:5px;
+}
+#startLabel{
+ 
+}
+.powerRow {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top:15px;
+}
+
+.power {
+  background: #333333;
+  position: relative;
+  
+  width: 43px;
+  height: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: inset 2px 3px 3px 0px #0d0d0d;
+  -webkit-box-shadow: inset 2px 3px 3px 0px #0d0d0d;
+  -moz-border-box-shadow: inset 2px 3px 3px 0px #0d0d0d;
+  -o-border-box-shadow: inset 2px 3px 3px 0px #0d0d0d;
+  
+}
+
+.pwrBtn {
+  background: #3333ff;
+  position: relative;
+  display: flex;
+  width: 20px;
+  height: 18px;
+  border-radius: 5px;
+  float:right;
+}
+
+.powerOn {
+  float: left;
+}
+
+.btnControls,
+start {
+  display: inline;
+}
+.strictLight{
+  position:absolute;
+   background: #661a00;
+   width: 8px;
+  height: 8px;
+   border: 1px solid #808080;
+  border-radius: 80%;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -o-border-radius: 80%;
+top:-13px;
+  left:20px;
+}
+.strictLightOn{
+  background: #ff794d;
+}

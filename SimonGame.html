@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  <!-- Created by: Duan Walker 2015-->
+		<title>Simon - a digital version</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Add Styles -->
+    <link rel="stylesheet" type="text/css" href="Assets/Styles/SimonGame.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--Load JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+    <script language="JavaScript" type="text/javascript" src="./Assets/Javascript/simonGame.js" ></script>
+    
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> -->
+
+	</head>
+	<body>
+		<div class="container">
+      <div class="simonBody">
+        <div class="button blueBtn" id="blue"></div>
+        <div class="button redBtn" id="red"></div>
+        <div class="button greenBtn" id="green"></div>
+        <div class="button yellowBtn" id="yellow"></div>
+        <div class="controls">
+          <div class="row titleRow ">
+            <label class="title col-xs-12">Simon</label>
+          </div>
+          <br/>
+          <div class="row controlsRow">
+            <div class="col-xs-4 scoreCol">
+              <span class="level" ><p id="score"></p></span>
+            </div>
+            <div class="col-xs-4 startCol">
+              <button class="btnControls" id="startButton"></button>
+              <label class="start" id="startLabel">start</label>
+            </div>
+            <div class="row col-xs-4 strictCol">
+              <div class="strictLight" id="sL"></div>
+              <button class="btnControls" id="strictButton"></button>
+              <label class="strict" id="strictLabel">strict</label>
+            </div>
+          </div>
+            <div class="row powerRow">
+              <label class="col-xs-3" id="pwrOn">ON</label>
+              <div class="power" id="pwrSwitch">
+                <div class="pwrBtn" id="power"></div>
+              </div>
+              <label class="col-xs-3" id="pwrOff">OFF</label>
+            </div>
+          </div>
+        </div>
+      </div>
+	</body>
+</html>
